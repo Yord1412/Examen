@@ -11,8 +11,17 @@
 	border-bottom-style: solid;
 	border-bottom-color: #68686e;
 }
+
+#flecha{
+	position: fixed;
+	background-color: #5b5b5d;
+	float: right;
+	width: 50px;
+	height: 50px;
+}
+
 #icono_menu{
-	position: relative;
+	display: flex;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -361,8 +370,8 @@ a:hover{
 }
 
 .boton_plan a{
-	
-	background-color: #5b5b5d;
+	text-decoration: none;
+	background-color: #7070cb;
 	border-bottom-style: solid;
 	border-bottom width: 5px;
 	border-radius: 5px;
@@ -374,21 +383,24 @@ a:hover{
 }
 
 .opiniones{
-	background-color: grey;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .opin_info{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 20px;
 	text-align: left;
-	background-color: red;
+	border-radius: 5px;
+	background-color: #7070cb;
 	display: inline-block;
 	max-width: 300px;
 }
 
 #contactanos{
-
+	background-color: #7070cb;
 }
 
 #area_form{
@@ -440,7 +452,8 @@ a:hover{
 #boton_form a{
 	margin-right: auto;
 	margin-left: auto;
-	background-color: blue;
+	background-color: #7070cb;
+	text-decoration: none;
 	border-bottom-style: solid;
 	border-bottom width: 5px;
 	padding: 6px;
@@ -466,4 +479,19 @@ a:hover{
 	text-align: left;
 	padding-bottom: 20px; 
 	border-bottom-style: dashed; 
+}
+
+#pie_pagina{
+	padding: 50px;
+	display: inline;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#copyright p{
+	display: inline;
+	text-align: center;
+	margin-left: 130px;
+	margin-right: auto;
 }
