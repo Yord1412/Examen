@@ -1,5 +1,10 @@
+body{
+margin:0;
+}
+
 #principal{
 	width: 100%;
+	margin: 0px;
 	background-color: #5b5b5d;
 }
 
@@ -25,11 +30,18 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+#icono_menu div{
+
+}
+
 #icono_menu img{
 	width: 60px;
 	height: 60px;
 }
 #icono_menu a{
+	margin-top: 10px;
+	padding-top: 10px;
 	text-decoration: none;
 	
 }
@@ -153,6 +165,7 @@
 }
 
 #listado div{
+	display: table-cell;
 	margin-left: 100px;
 }
 
@@ -166,6 +179,11 @@
 
 #lista-tabla table{
 	margin: 50px;
+}
+
+#lista img{
+	width: 100px;
+	height: 100px;
 }
 
 #contenido{
@@ -229,6 +247,11 @@
 	text-align: justify;
 }
 
+.caracteristicas img{
+	width: 300px;
+	height: 250px;
+}
+
 .caracteristicas h4{
 	text-align: center;
 }
@@ -267,6 +290,11 @@
 #imagenes_acomodo ul{
 	list-style: none;
 	display: inline-flex;
+}
+
+#imagenes_acomodo img{
+	width: 300px;
+	height: 300px;
 }
 
 #blogs{
@@ -388,6 +416,11 @@ a:hover{
 	margin-right: auto;
 }
 
+.opiniones img{
+	width: 300px;
+	height: 300px;
+}
+
 .opin_info{
 	padding-left: 10px;
 	padding-right: 10px;
@@ -483,7 +516,7 @@ a:hover{
 
 #pie_pagina{
 	padding: 50px;
-	display: inline;
+	display: block;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -495,3 +528,4 @@ a:hover{
 	margin-left: 130px;
 	margin-right: auto;
 }
+
