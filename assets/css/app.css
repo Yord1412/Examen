@@ -198,6 +198,8 @@ margin:0;
 }
 
 #linea_ima img{
+	width: 70px;
+	height: 70px;
 	text-align: center;
 }
 
