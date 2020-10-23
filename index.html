@@ -12,23 +12,39 @@
 		<div id="principal">
 			<!-- Menu suoerior estatico -->
 			<div id="menu_estatico">
-				<div id="icono_menu">
-					<div id="logomenu">
-						<img src="assets/imagenes/logo.jpg">
+				<div id="margen_estatico">
+					<div id="icono_menu">
+						<div id="logomenu">
+							<img src="assets/imagenes/logo.jpg">
+						</div>
+						<div id="icono_menu_estatico">
+							<a href="#principal">videojuegos</a>
+						</div>
 					</div>
-					<div>
-						<a href="">videojuegos</a>
+					<div id="botones_menu">
+						<div>
+							<a href="#informacion">Informacion</a>
+						</div>
+						<div>
+							<a href="#referencias">Referencias</a>
+						</div>
+						<div>
+							<a href="#planes_prin">Planes</a>
+						</div>
+						<div>
+							<a href="#contactanos">Contactanos</a>
+						</div>
+						<div id="boton_dif">
+							<a href="#">Blog</a>
+						</div>
 					</div>
-					
 				</div>
 			</div>
 
-			<!--
-			intento flecha
+			<!-- flecha para regresar arriba -->
 			<div id="flecha">
-				<a href="">^</a>
+				<a href="#principal">^</a>
 			</div>
-			-->
 
 			<!-- lugar del logo -->
 			<div id="logo">	
@@ -40,20 +56,20 @@
 				<div id="iconos_titulo">
 					<ul>
 						<li>
-							<img src="assets/imagenes/icono.png">
+							<img src="assets/imagenes/facebook.png">
 						</li>
 						<li>
-							<img src="assets/imagenes/icono.png">
+							<img src="assets/imagenes/twitter.png">
 						</li>
 					</ul>
 					<h1>Videojuegos</h1>
 
 					<ul>
 						<li>
-							<img src="assets/imagenes/icono.png">
+							<img src="assets/imagenes/google.png">
 						</li>
 						<li>
-							<img src="assets/imagenes/icono.png">
+							<img src="assets/imagenes/linkedin.png">
 						</li>
 					</ul>
 				</div>
@@ -71,15 +87,15 @@
 			<!-- botones de el inicio -->
 			<div id="accesos">
 				<div id="acceso_botones">
-					<a class="" href="">Conocelo</a>
-					<a href="">contactos</a>
+					<a id="boton_1" href="#informacion">Conocelo mejor</a>
+					<a id="boton_2" href="#contactanos">Contactos</a>
 				</div>
 			</div>
 
 			<!-- pequeña informacion del sitio -->
 			<div id="informacion">
 				<img src="assets/imagenes/logo.jpg">
-				<h4>Nombre</h4>
+				<h4>Videojuegos</h4>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -106,7 +122,7 @@
 					<div id="cuadro">
 						<div class="caracteristicas">
 							<img src="assets/imagenes/xbox one.jpg">
-							<h4>izquierda1</h4>
+							<h4>Xbox one</h4>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -115,7 +131,7 @@
 						</div>
 						<div class="caracteristicas">
 							<img src="assets/imagenes/ps4.jpg">
-							<h4>izquierda2</h4>
+							<h4>Playstation 4</h4>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -124,7 +140,7 @@
 						</div>
 						<div class="caracteristicas">
 							<img src="assets/imagenes/swich.jpg">
-							<h4>derecha1</h4>
+							<h4>Nintendo switch</h4>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -133,7 +149,7 @@
 						</div>
 						<div class="caracteristicas">
 							<img src="assets/imagenes/pc.jpg">
-							<h4>derecha2</h4>
+							<h4>PC</h4>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -184,11 +200,11 @@
 				</div>	
 			</div>
 
-			<!-- caracteristicas de trabajos -->
+			<!-- caracteristicas de trabajos (tambien llamado marcas)-->
 			<div id="trabajos">
 				<div class="subs">
 					<h2>
-						otro subtitulo
+						Marcas
 					</h2>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -204,9 +220,9 @@
 									<img src="assets/imagenes/iconox.png">
 								</td>
 								<td>
-									<p>
-										provicional
-									</p>
+									<h3>
+										Xbox
+									</h3>
 									<p>
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 										tempor incididunt ut labore et dolore magna aliqua.
@@ -219,9 +235,9 @@
 									<img src="assets/imagenes/iconops4.png">
 								</td>
 								<td>
-									<p>
-										provicional
-									</p>
+									<h3>
+										Playstation
+									</h3>
 									<p>
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 										tempor incididunt ut labore et dolore magna aliqua.
@@ -234,9 +250,9 @@
 									<img src="assets/imagenes/iconoswich.png">
 								</td>
 								<td>
-									<p>
-										provicional
-									</p>
+									<h3>
+										Nintendo
+									</h3>
 									<p>
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 										tempor incididunt ut labore et dolore magna aliqua.
@@ -249,14 +265,17 @@
 									<img src="assets/imagenes/iconopc.png">
 								</td>
 								<td>
-									<p>
-										provicional
-									</p>
+									<h3>
+										PC (Plataforma)
+									</h3>
 									<p>
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 										tempor incididunt ut labore et dolore magna aliqua.
 									</p>
 								</td>
+								
+							</tr>
+							<tr>
 								
 							</tr>
 						</table>
@@ -270,18 +289,17 @@
 			<!-- cita bibliografica -->
 			<div id="lugar_cita">
 				<div id="cita">
-					<blockquote>
+					<blockquote cite="https://www.informacion.es/vida-y-estilo/tecnologia/videojuegos/2019/09/08/frases-videojuegos-pasaran-historia-5292055.html">
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							"Al final, ¿Qué distingue al hombre libre del esclavo? ¿Dinero? ¿Poder? No. El hombre elige. El esclavo obedece"
 						</p>
-						<footer>sita de ejemplo</footer>
+						<footer><cite>Andrew Ryan ('Bioshock')</cite></footer>
 					</blockquote>
 				</div>
 			</div>
 
 			<!-- referencias -->
-			<div id="imagenesRefer">
+			<div id="referencias">
 				<div class="subs">
 					<h2>
 						Referencias
@@ -345,6 +363,7 @@
 				</div>
 			</div>
 
+			<!-- Area de los post -->
 			<div id="post">
 				<div class="subs">
 					<h2>
@@ -358,20 +377,25 @@
 				</div>
 			</div>
 
+			<!-- Linea divisora de imagenes -->
 			<div id="linea_ima">
-				<ul>
-					<li>
-						<img src="assets/imagenes/icono.png">
-					</li>
-					<li>
-						<img src="assets/imagenes/icono.png">
-					</li>
-					<li>
-						<img src="assets/imagenes/icono.png">
-					</li>
-				</ul>
+				<div id="linea_imagenes">
+					<ul>
+						<li>
+							<img src="assets/imagenes/iconox.png">
+						</li>
+						<li>
+							<img src="assets/imagenes/iconops4.png">
+						</li>
+						<li>
+							<img src="assets/imagenes/iconoswich.png">
+						</li>
+					</ul>
+				</div>
+				
 			</div>
 
+			<!-- Area de blogs -->
 			<div id="blogs">
 				<div class="posteos">
 					<div class="info_post">
@@ -447,6 +471,7 @@
 				</div>
 			</div>
 
+			<!-- Area de planes -->
 			<div id= "planes_prin">
 				<div class="subs">
 					<h2>
@@ -475,7 +500,9 @@
 							<table>
 								<tr>
 									<td>
-										<img src="assets/imagenes/icono.png">
+										<p>
+											<b> 150 </b>
+										</p>
 									</td>
 									<td>
 										<p>
@@ -508,7 +535,9 @@
 								</tr>
 								<tr>
 									<td>
-										<img src="assets/imagenes/icono.png">
+										<p>
+											<b> 150 </b>
+										</p>
 									</td>
 									<td>
 										<p>
@@ -526,11 +555,11 @@
 					<div class="precios">
 						<div class="nombre_precio">
 							<h3>
-								Lite
+								Standar
 							</h3>
 							<div class="precio_planes">
 								<p>
-									99$
+									150$
 								</p>
 							</div>
 						</div>
@@ -538,7 +567,9 @@
 							<table>
 								<tr>
 									<td>
-										<img src="assets/imagenes/icono.png">
+										<p>
+											<b> 150 </b>
+										</p>
 									</td>
 									<td>
 										<p>
@@ -571,7 +602,9 @@
 								</tr>
 								<tr>
 									<td>
-										<img src="assets/imagenes/icono.png">
+										<p>
+											<b> 150 </b>
+										</p>
 									</td>
 									<td>
 										<p>
@@ -590,11 +623,11 @@
 					<div class="precios">
 						<div class="nombre_precio">
 							<h3>
-								Lite
+								Premiun
 							</h3>
 							<div class="precio_planes">
 								<p>
-									99$
+									350$
 								</p>
 							</div>
 						</div>
@@ -602,7 +635,9 @@
 							<table>
 								<tr>
 									<td>
-										<img src="assets/imagenes/icono.png">
+										<p>
+											<b> 150 </b>
+										</p>
 									</td>
 									<td>
 										<p>
@@ -635,7 +670,9 @@
 								</tr>
 								<tr>
 									<td>
-										<img src="assets/imagenes/icono.png">
+										<p>
+											<b> 150 </b>
+										</p>
 									</td>
 									<td>
 										<p>
@@ -653,6 +690,7 @@
 				</div>
 			</div>
 
+			<!-- Area de testimonios -->
 			<div id="testimonios_prin">
 				<div class="subs">
 					<h2>
@@ -666,45 +704,49 @@
 				</div>
 
 				<div id="testimonios">
-					<div class="opiniones">
-						<img src="assets/imagenes/shovel.png">
-						<div class="opin_info">
-							<h3>
-								John Doe
-							</h3>
-							<h4>
-								web
-							</h4>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							</p>
+					<div id="testimonios_area">
+						<div class="opiniones">
+							<img src="assets/imagenes/shovel.png">
+							<div class="opin_info">
+								<h3>
+									Shovel knight 
+								</h3>
+								<h4>
+									web
+								</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								</p>
+							</div>
+						</div>
+						<div class="opiniones">
+							<img src="assets/imagenes/maestro.jpg">
+							<div class="opin_info">
+								<h3>
+									Jefe maestro 117
+								</h3>
+								<h4>
+									web
+								</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								</p>
+							</div>
 						</div>
 					</div>
-					<div class="opiniones">
-						<img src="assets/imagenes/maestro.jpg">
-						<div class="opin_info">
-							<h3>
-								John Doe
-							</h3>
-							<h4>
-								web
-							</h4>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							</p>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 
+			<!-- Area de formulario contactos -->
 			<div id="contactanos">
 				<div class="subs">
 					<h2>
-						Contact us
+						Contactanos
 					</h2>
 				</div>
 
@@ -753,11 +795,32 @@
 				</div>	
 			</div>
 
+			<!-- pie de pagina -->
 			<div id="pie_pagina">
-				<div id="copyright">
-					<p>
-						© Jordy The Freelancer 2020 All right reserved. Designed by
-					</p>
+				<div id="elementos">
+					<div id="enlaces_pie">
+						<ul>
+							<li>
+								<img src="assets/imagenes/facebook.png">
+							</li>
+							<li>
+								<img src="assets/imagenes/twitter.png">
+							</li>
+							<li>
+								<img src="assets/imagenes/google.png">
+							</li>
+							<li>
+								<img src="assets/imagenes/linkedin.png">
+							</li>
+						</ul>
+					</div>
+
+					<div id="copyright">
+						<p>
+							© Jordy The Freelancer 2020 All right reserved. Designed by
+						</p>
+					</div>
+					
 				</div>
 			</div>
 		</div>
